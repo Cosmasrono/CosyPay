@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route,  Link,} from "react-router-dom";
 function App() {
   const handleClick = () => {
     // Redirect to the TinyPesa website
-    <a href = "https://tinypesa.com"/>
+     window.location.href = "https://cosmaswing.tech";
   };
 
   const handlePay = async () => {
